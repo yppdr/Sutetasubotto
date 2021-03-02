@@ -1,0 +1,23 @@
+{
+  "name": "sutetasubotto",
+  "version": "0.0.1",
+  "description": "Un bot discord pour ping des infrastructures via plusieurs processus",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yppdr/Sutetasubotto.git"
+  },
+  "author": "Yannis Piot Pilot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yppdr/Sutetasubotto/issues"
+  },
+  "homepage": "https://github.com/yppdr/Sutetasubotto#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "ping": "^0.4.0"
+  }
+}
