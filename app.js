@@ -29,8 +29,16 @@ hosts.forEach(function(host){
 
 var client = new Discord.Client();
 
+
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
+  client.user.setPresence({
+        status: 'online',
+        activity: {
+            name: 'vous observer ( ಠ ͜ʖಠ)',
+            type: 'PLAYING'
+        }
+    });
 });
 
 client.on('message', msg => {
