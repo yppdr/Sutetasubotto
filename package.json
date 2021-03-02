@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/yppdr/Sutetasubotto/issues"
   },
-  "homepage": "https://github.com/yppdr/Sutetasubotto#readme"
+  "homepage": "https://github.com/yppdr/Sutetasubotto#readme",
+  "dependencies": {
+    "ping": "^0.4.0"
+  }
 }
